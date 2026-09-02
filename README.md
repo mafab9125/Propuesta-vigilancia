@@ -2,14 +2,12 @@
 
 A continuación, se presenta la ruta de trabajo estructurada para identificar, filtrar y caracterizar las mejores prácticas e iniciativas implementadas a nivel global tras eventos sísmicos.
 
-*(Puedes hacer clic en los recuadros oscuros de cada FASE para leer sus detalles operativos).*
-
-## Mapa de Ruta Interactivo
+## Mapa de Ruta
 
 ```mermaid
 graph TD
     %% Estilos
-    classDef fase fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff,cursor:pointer;
+    classDef fase fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;
     classDef accion fill:#ecf0f1,stroke:#bdc3c7,stroke-width:1px,color:#2c3e50;
     classDef decision fill:#f39c12,stroke:#e67e22,stroke-width:2px,color:#fff;
     classDef foco fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
@@ -42,8 +40,52 @@ graph TD
     D2 --> F_3[3. Continuidad Educativa]:::foco
     D2 --> F_4[4. Políticas y Datos]:::foco
 
-    %% Interactividad (Enlaces a las secciones de texto)
-    click F1 "#fase-1-perfilamiento-y-priorización-de-países" "Ir a detalles de Fase 1"
-    click F2 "#fase-2-soporte-documental" "Ir a detalles de Fase 2"
-    click F3 "#fase-3-búsqueda-enfocada-de-iniciativas" "Ir a detalles de Fase 3"
-    click F4 "#fase-4-caracterización-y-extracción" "Ir a detalles de Fase 4"
+
+
+
+Detalle Operativo por Fases
+Fase 1: Perfilamiento y Priorización de Países
+El objetivo es confirmar una muestra estadísticamente relevante de países a explorar.
+
+Fuente de datos: Se utiliza el Global Seismic Risk Map (Global Quake Model).
+
+Extracción: Se obtienen perfiles de riesgo, identificando prefecturas de mayor pérdida, eventos ancla e indicadores sociales.
+
+Entregable: Ficha "Contexto de amenaza y exposición". Aquí se define el Top 10 de países priorizados, justificando cuantitativamente su inclusión mediante indicadores como la Pérdida Anual Promedio (AAL) (Ej. Por qué Japón entra al estudio).
+
+Fase 2: Soporte Documental
+Construcción del marco de referencia histórico y técnico.
+
+Metodología: Búsquedas estructuradas en español e inglés en bases de datos sobre sismos históricos superiores a magnitud 4.0.
+
+Entregable: Ficha de "Documentos claves" que sirven como soporte teórico para la vigilancia.
+
+Fase 3: Búsqueda Enfocada de Iniciativas
+Dado que la búsqueda depende de información pública y gratuita en la web, se optimiza el esfuerzo con una estrategia de pivoteo.
+
+Despliegue inicial: Exploración intensiva en los primeros 5 países del Top 10.
+
+Pivoteo: Si no se halla información suficientemente documentada, se transita a los 5 países restantes de la muestra.
+
+Tácticas de Búsqueda (Tips):
+
+Modificación de la ubicación del navegador y uso de dominios gubernamentales específicos por país (Ej. .go.jp para Japón).
+
+Búsqueda por nombres propios de instituciones creadas tras desastres (Ej. post-Kobe 1995) en lugar de términos genéricos.
+
+Uso de terminología local de las ciudades más afectadas.
+
+Fase 4: Caracterización y Extracción
+Clasificación de las iniciativas vigentes extraídas de portales gubernamentales y medios oficiales.
+
+Entregable: Matriz de caracterización de iniciativas.
+
+Unidades de análisis: Se evalúa cada iniciativa bajo 4 focos estratégicos:
+
+Salud mental, bienestar humano y animal.
+
+Recuperación económica empresarial.
+
+Continuidad educativa y educación en gestión del riesgo.
+
+Políticas públicas y datos para futuras emergencias.
