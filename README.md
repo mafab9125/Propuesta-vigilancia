@@ -2,7 +2,7 @@
 
 A continuación, se presenta la ruta de trabajo estructurada para identificar, filtrar y caracterizar las mejores prácticas e iniciativas implementadas a nivel global tras eventos sísmicos.
 
-## Mapa de Ruta
+## Hoja de ruta
 
 ```mermaid
 graph TD
