@@ -1,10 +1,13 @@
 # Propuesta metodológica: Vigilancia estratégica de iniciativas Post-Terremoto
 
-A continuación, se presenta la ruta de trabajo estructurada para identificar, filtrar y caracterizar las mejores prácticas e iniciativas implementadas a nivel global tras eventos sísmicos.
+A continuación, se presenta la ruta de trabajo estructurada para identificar, seleccionar y caracterizar iniciativas y buenas prácticas implementadas a nivel global tras eventos sísmicos, en cuatro focos temáticos.
+
+## Naturaleza del análisis
+
+El estudio es **descriptivo y se construye sobre valores observados**, no sobre modelos probabilísticos. La selección de países se justifica con el impacto realmente registrado de terremotos ocurridos entre 1990 y 2026, no con proyecciones de riesgo futuro.
 
 ## Hoja de ruta
 
-```mermaid
 graph TD
     %% Estilos
     classDef fase fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;
@@ -12,9 +15,9 @@ graph TD
     classDef decision fill:#f39c12,stroke:#e67e22,stroke-width:2px,color:#fff;
     classDef foco fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
 
-    F1[FASE 1: Priorización]:::fase --> A1[Consulta Global Quake Model]:::accion
-    A1 --> A2[Análisis de Indicadores: AAL, Eventos Ancla]:::accion
-    A2 --> A3[Selección Top 10 Países]:::accion
+    F1[FASE 1: Priorización]:::fase --> A1[Consulta NOAA NCEI y perfiles GEM]:::accion
+    A1 --> A2[Análisis de Indicadores observados: Fallecidos, Daño, Recurrencia]:::accion
+    A2 --> A3[Selección Top 15 Países]:::accion
 
     F2[FASE 2: Documentación]:::fase --> B1[Búsqueda de sismos > 4.0]:::accion
     B1 --> B2[Consolidación de Documentos Claves]:::accion
@@ -23,7 +26,7 @@ graph TD
     F3[FASE 3: Búsqueda Enfocada]:::fase --> C1[Exploración Top 5 Países]:::accion
     A3 --> F3
     C1 --> C2{¿Datos suficientes?}:::decision
-    C2 -- NO --> C3[Expandir a los otros 5 países]:::accion
+    C2 -- NO --> C3[Expandir a los otros 10 países]:::accion
     C3 --> C4
     C2 -- SÍ --> C4[Aplicar Tips de Búsqueda]:::accion
     
@@ -48,10 +51,15 @@ graph TD
 ## Detalle operativo por fases
 
 ### Fase 1: Perfilamiento y priorización de países
-**Objetivo:** Definir y justificar cuantitativamente una muestra (Top 10) de los países con mayor riesgo y exposición sísmica a nivel global para enfocar la búsqueda.
-* **Herramienta de análisis:** Exploración de datos a través del mapa interactivo [Global Seismic Risk Map (Global Quake Model)](https://www.globalquakemodel.org/product/global-seismic-risk-map).
-* **Extracción de variables clave:** De cada país se extraen indicadores sociales (Población, PIB, Índice Gini), **Eventos ancla** (terremotos históricos de gran magnitud) y las prefecturas/ciudades con mayor nivel de pérdida.
-* **Entregable (Ficha 1 - Contexto_país):** Documento que consolida el Top 10 de países priorizados. La inclusión de cada país se justifica estrictamente mediante indicadores cuantitativos como la **Pérdida Anual Promedio (AAL)** 
+**Objetivo:** Definir y justificar cuantitativamente una muestra (Top 15) de países a partir del **impacto sísmico observado** entre 1990 y 2026, para enfocar la búsqueda de iniciativas.
+
+* **Fuente de selección:** [NOAA / NCEI, *Global Significant Earthquake Database*](https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/earthquakes) (doi 10.7289/V5TD9V7K), consultada mediante la herramienta HazEL. Se trata de datos de eventos realmente ocurridos, no de proyecciones de riesgo.
+* **Filtros aplicados:** año igual o posterior a 1990, magnitud igual o superior a 4.0, exclusión de eventos con bandera volcánica y de eventos sin impacto documentado. Base resultante: **1.507 eventos en 109 países**.
+* **Extracción de variables clave:** de cada evento se extraen fallecidos, heridos, daño económico, viviendas destruidas y viviendas dañadas. Agregadas por país, estas variables producen tres ordenamientos independientes: **fallecidos acumulados, daño acumulado y número de eventos con impacto**.
+* **Criterio de selección:** el impacto no es una sola variable, de modo que la muestra se define por **intersección**: los países que se ubican entre los veinte primeros en los tres rankings a la vez (8 países). Los 7 restantes se incorporan por **priorización declarada y vinculada a los focos** del estudio, hasta completar 15.
+* **Fuente de contexto:** los [perfiles de riesgo sísmico de GEM](https://www.globalquakemodel.org/product/global-seismic-risk-map) aportan los indicadores sociales (Población, PIB, Índice Gini), las clases constructivas, las prefecturas o divisiones con mayor nivel de pérdida, y la **razón de pérdida anual promedio (AALR)** como indicador de vigencia del riesgo. Al ser resultado de un modelo probabilístico y no de eventos ocurridos, **no participan en la selección ni en el orden de los países**.
+* **Eventos ancla:** de la base NOAA se extraen, por país, los terremotos de mayor impacto con año, magnitud, localidad, fallecidos y daño. Son el punto de partida de la Fase 3, porque la mayoría de las iniciativas nace como respuesta institucional a un evento concreto.
+* **Entregable (Ficha 1 - Contexto_país):** documento que consolida el Top 15 de países priorizados. La inclusión de cada país se justifica con su posición en los tres rankings observados y con el criterio de entrada declarado (intersección o priorización por foco), acompañada del AALR como nota de vigencia del riesgo.
 
 ### Fase 2: Soporte documental (Marco de referencia)
 **Objetivo:** Establecer la base teórica e histórica que respalde la investigación.
