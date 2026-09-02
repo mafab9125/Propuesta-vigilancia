@@ -40,7 +40,9 @@ graph TD
     D2 --> F_3[3. Continuidad Educativa]:::foco
     D2 --> F_4[4. Políticas y Datos]:::foco
 
-```markdown
+```
+
+markdown
 ---
 
 ## Detalle Operativo por Fases
