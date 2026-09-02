@@ -1,6 +1,6 @@
 # Propuesta metodológica: Vigilancia estratégica de iniciativas Post-Terremoto
 
-A continuación, se presenta la ruta de trabajo estructurada para identificar, seleccionar y caracterizar iniciativas y buenas prácticas implementadas a nivel global tras eventos sísmicos, en cuatro focos temáticos.
+A continuación, se presenta la ruta de trabajo estructurada para identificar, seleccionar y caracterizar iniciativas y buenas prácticas implementadas a nivel global tras eventos sísmicos.
 
 ## Naturaleza del análisis
 
