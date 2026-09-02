@@ -67,7 +67,7 @@ graph TD
   * **Geolocalización del desastre:** Emplear los nombres exactos de las ciudades o prefecturas con mayores afectaciones (identificadas en la Fase 1) para hallar programas de recuperación locales.
 
 ### Fase 4: Caracterización y extracción de datos
-**Objetivo:** Sistematizar las iniciativas vigentes (de los últimos (PDTE) años) extraídas de portales gubernamentales, redes sociales oficiales y canales de noticas locales.
+**Objetivo:** Sistematizar las iniciativas vigentes (de los últimos 40 años) extraídas de portales gubernamentales, redes sociales oficiales y canales de noticas locales.
 * **Entregable (Ficha 3 - Matriz de caracterización):** Instrumento central de la vigilancia donde se desglosa cada iniciativa utilizando las siguientes unidades de análisis: *País, Región/Ciudad, Evento sísmico/Año, Nombre de la iniciativa, Entidad responsable, Tipo de entidad, Descripción, Población objetivo, Cobertura reportada, Resultado esperado y URLs de soporte*.
 * **Clasificación por focos estratégicos:** Cada iniciativa documentada se categoriza obligatoriamente en uno de los 4 ejes definidos:
   1. **Salud mental, bienestar humano y animal**
