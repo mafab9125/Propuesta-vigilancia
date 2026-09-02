@@ -2,12 +2,14 @@
 
 A continuación, se presenta la ruta de trabajo estructurada para identificar, filtrar y caracterizar las mejores prácticas e iniciativas implementadas a nivel global tras eventos sísmicos.
 
+*(Puedes hacer clic en los recuadros oscuros de cada FASE para leer sus detalles operativos).*
+
 ## Mapa de Ruta Interactivo
 
 ```mermaid
 graph TD
     %% Estilos
-    classDef fase fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;
+    classDef fase fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff,cursor:pointer;
     classDef accion fill:#ecf0f1,stroke:#bdc3c7,stroke-width:1px,color:#2c3e50;
     classDef decision fill:#f39c12,stroke:#e67e22,stroke-width:2px,color:#fff;
     classDef foco fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
@@ -39,3 +41,9 @@ graph TD
     D2 --> F_2[2. Recuperación Económica]:::foco
     D2 --> F_3[3. Continuidad Educativa]:::foco
     D2 --> F_4[4. Políticas y Datos]:::foco
+
+    %% Interactividad (Enlaces a las secciones de texto)
+    click F1 "#fase-1-perfilamiento-y-priorización-de-países" "Ir a detalles de Fase 1"
+    click F2 "#fase-2-soporte-documental" "Ir a detalles de Fase 2"
+    click F3 "#fase-3-búsqueda-enfocada-de-iniciativas" "Ir a detalles de Fase 3"
+    click F4 "#fase-4-caracterización-y-extracción" "Ir a detalles de Fase 4"
