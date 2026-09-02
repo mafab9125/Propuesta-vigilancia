@@ -51,7 +51,7 @@ graph TD
 **Objetivo:** Definir y justificar cuantitativamente una muestra (Top 10) de los países con mayor riesgo y exposición sísmica a nivel global para enfocar la búsqueda.
 * **Herramienta de análisis:** Exploración de datos a través del mapa interactivo [Global Seismic Risk Map (Global Quake Model)](https://www.globalquakemodel.org/product/global-seismic-risk-map).
 * **Extracción de variables clave:** De cada país se extraen indicadores sociales (Población, PIB, Índice Gini), **Eventos ancla** (terremotos históricos de gran magnitud) y las prefecturas/ciudades con mayor nivel de pérdida.
-* **Entregable (Ficha 1 - Contexto de amenaza y exposición):** Documento que consolida el Top 10 de países priorizados. La inclusión de cada país se justifica estrictamente mediante indicadores cuantitativos como la **Pérdida Anual Promedio (AAL)** 
+* **Entregable (Ficha 1 - Contexto_país):** Documento que consolida el Top 10 de países priorizados. La inclusión de cada país se justifica estrictamente mediante indicadores cuantitativos como la **Pérdida Anual Promedio (AAL)** 
 
 ### Fase 2: Soporte documental (Marco de referencia)
 **Objetivo:** Establecer la base teórica e histórica que respalde la investigación.
