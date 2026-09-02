@@ -8,6 +8,7 @@ El estudio es **descriptivo y se construye sobre valores observados**, no sobre 
 
 ## Hoja de ruta
 
+```mermaid
 graph TD
     %% Estilos
     classDef fase fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;
