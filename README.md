@@ -42,7 +42,7 @@ graph TD
 
 ```
 
-markdown
+
 ---
 
 ## Detalle Operativo por Fases
