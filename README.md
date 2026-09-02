@@ -40,12 +40,6 @@ graph TD
     D2 --> F_3[3. Continuidad Educativa]:::foco
     D2 --> F_4[4. Políticas y Datos]:::foco
 
-<Sequence>
-  <Step title="Pega los Detalles Operativos finales">
-    Finalmente, debajo de lo último que pegaste, añade la explicación de las fases:
-  </Step>
-</Sequence>
-
 ```markdown
 ---
 
